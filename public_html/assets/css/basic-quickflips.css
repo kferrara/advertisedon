@@ -1,0 +1,51 @@
+.quickFlip {	
+	font-size: 14px;
+	height: 120px;
+	border: 1px solid #fff;
+	padding: 2px; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;	
+	margin-top: 2px;
+}
+.half-col {
+    width: 50%;
+    float: left;
+}
+
+/**** panels ****/
+
+.quickFlip {
+    position: relative;
+	padding: 2px;
+}
+
+.quickFlip .redPanel {
+    background-color: #D9EFFF;
+    color: #000;
+	padding: 5px;
+	margin-top: 2px;
+    border: 2px solid #FFF;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+	min-height: 120px;
+}
+.quickFlip .redPanel:hover {
+	padding: 2px;
+    border: 2px solid #666666;
+}
+
+.quickFlip .blackPanel {
+    background-color: #FFF1D7;
+	text-align: center; 
+	font-size: 14px;
+	padding: 5px;
+	margin-top: 2px;
+    border: 2px solid #FFFFFF;  
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+	min-height: 120px;
+}
+.quickFlip .blackPanel:hover {
+	padding: 2px;
+    border: 2px solid #666666;
+}

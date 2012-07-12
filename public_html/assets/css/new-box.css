@@ -1,0 +1,14 @@
+body {
+	/*background-image:url(http://advertisedon.com/assets/img/side-bkgd4.gif);*/
+	font-family: 'Karla';
+	background: url(http://advertisedon.com/assets/img/boston.jpg) no-repeat;
+  	background-size: 100%;
+}
+
+.menucontainer {
+	left:50%;
+	margin:0 0 0 -487px;
+	position:absolute;
+	top:92px;
+	z-index:500
+}
