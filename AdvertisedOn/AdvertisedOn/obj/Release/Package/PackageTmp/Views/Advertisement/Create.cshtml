@@ -1,0 +1,67 @@
+﻿@model AdApp1.ViewModels.ViewModelAdvertisement
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Advertisement</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.HeadingText)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.HeadingText)
+            @Html.ValidationMessageFor(model => model.HeadingText)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RegionTypes)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.RegionTypeId, new SelectList(Model.RegionTypes, "RegionTypeId", "Name"))
+            @Html.ValidationMessageFor(model => model.RegionTypes)
+        </div>
+
+         <div class="editor-label">
+            @Html.LabelFor(model => model.Businesses)
+        </div>
+        <div class="editor-field">
+            @Html.DropDownListFor(model => model.BusinessId, new SelectList(Model.Businesses, "BusinessId", "Name"))
+            @Html.ValidationMessageFor(model => model.Businesses)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EffectiveDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EffectiveDate)
+            @Html.ValidationMessageFor(model => model.EffectiveDate)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ExporationDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ExporationDate)
+            @Html.ValidationMessageFor(model => model.ExporationDate)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

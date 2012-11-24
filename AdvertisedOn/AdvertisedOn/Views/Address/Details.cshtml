@@ -1,0 +1,50 @@
+﻿@model AdvertisedOn.Models.Address
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Address</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address1)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address1)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Address2)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Address2)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.City)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.City)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.State)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.State)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Zip)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Zip)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AddressId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

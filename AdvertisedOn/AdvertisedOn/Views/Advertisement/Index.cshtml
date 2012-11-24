@@ -1,0 +1,781 @@
+﻿@model IEnumerable<AdvertisedOn.Models.Advertisement>
+
+@{
+    ViewBag.Title = "Ads";
+}
+
+<body class="search-page static homeaway_us ha">
+    <div id="wrapper">
+        <div id="header">
+	        <div id="navbar">
+                <div id="tools">
+	                <ul>
+                    <span id='user-links-signin'>
+                        <li>
+    	                    <a href="#">Customer Login</a>
+                        </li>
+                        <li>
+    	                    <a href="#">Business Owner Login</a>
+                        </li>
+                    </span>
+                    <li id="user-link">
+                        <li class="user-links-dropdown" id="user-links-li">
+                            <a href="#" id='user-links-dropdown'><span class="user-links-button-dropdown"></span></a>
+                        </li>
+                    </li>
+                    <div class="user-links" id='user-links-list'>
+                <ul>
+                    <li class="user-links-li"><a href="/favorites" >Favorites<span class="favs-count"></span></a></li>
+                    <li class="user-links-li"><a href="/favorites?inquired" >Inquired<span class="inq-count"></span></a></li>
+                    <li class="user-links-li"><a href="/favorites?visited" >Viewed<span class="viewed-count"></span></a></li>
+                    <li class="user-links-li"><a href="/traveler/profile">My Profile</a></li>
+                    <li class="user-links-li"><a href="/traveler/profile/settings/edit">Settings</a></li>
+                    <li class="user-links-li"><a href="/haolb/121/traveler/travdash.html">My Trips</a></li>
+                    <li class="user-links-li signout-li"><a id="user-link-haod" href="#">Owner Dashboard</a></li>
+                    <li class="user-links-li"><a href="#" id="signout" class="signout-li-inner">Logout</a></li>
+               </ul>
+            </div>
+				<li class='last'><a href="#">Advertise Your Business</a></li>
+	            </ul>
+                </div>
+                <ul id="global-nav">
+    		        <li class='first'><a href="#">How it Works</a></li>
+    		        <li><a href="#">Customers</a></li>
+    		        <li><a href="#">Business Owners</a></li>
+    		        <li class='last'><a href="#">Help</a></li>
+                </ul>
+	            <div class="clear"></div>
+	        </div>
+	        <div id="masthead" style="opacity:0.9999;">
+		        <div id="header-logo">
+			    <a href="/" title="AdvertisedOn"><img src="http://resources.homeaway.com/resources/cf7c54ea/images/t.gif" width="210" height="56" alt="AdvertisedOn Advertisements" title="AdvertisedOn Advertisements" border="0" /></a>
+		    </div>
+		        <div id="right-bar">
+			    <div id="search-bar" class="sprites-navbar-bg" >		
+				    <form name="searchForm" id="keywordSearchForm" action="/searchForm" method="post">
+					    <input type="text" name="keywords" id="searchKeywords" rel="Search by keyword" class="input-keyword focus-input" value="Search by city/town, zip or keyword"/>
+					    <input id="side-search-button" type="button" height="22" class="search-submit-button button3" value="Go" />
+				    </form>
+				    <span id="fd-button"></span>
+				    <div class="clear"></div>
+			    </div>
+			    <div id="tagline">Welcome to AdvertisedOn</div>	
+		    </div>
+		        <div class="clear"></div>
+	        </div> 	
+	        <div class="clear">
+            </div>
+        </div>
+	    <div id="container">
+		    <div class="search-top">  
+                <div id="featured-listings" class="preview-container">	
+			        <h2 id="featured-listings-title">Featured Business Listings</h2>
+                    <div id="featured-property-1" data-previewId="1192363-851108" class="featured-property listing preview-listing-1192363-851108 ">
+			            <a href="#" alt="Advertisement One" title="Advertisement One" style="background-image: url(http://imageseu.homeaway.com/vd2/files/HR/200x150/au/1170952/851108_1327947054867.jpg);" class="featured-photo preview-trigger preview-trigger-1192363-851108">
+                            <div id="img-1192363-851108" class="img-overlay preview-icon-1192363-851108"></div></a>
+    		            <a class="button-base small light" href="~/Advertisement/1">View this Ad</a><br/>
+    		            <span class="featured-region">View all in  
+			                <a href="#" alt="Advertisement One" title="Advertisement One">
+                        Framingham</a>
+			            </span>
+		            </div>
+                    <div id="target-1192363-851108" class="listing-hover hidden preview-modal-1192363-851108" spu="trips-918626-3229011">
+			            <div class="preview-top">
+                           <div class="preview-target">
+                                <div class="unit-preview list" id="preview-3283988-3283988">
+                                    <div class="unit-info">
+                                        <div class="unit-map-sm" id="3283988-3283988-map-sm" style="position: relative; background-color: #e5e3df; overflow: hidden;">
+                                            <div style="left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; position: absolute; z-index: 0;">
+                                                <div style="left: 0px; top: 0px; width: 100%; height: 100%; overflow: hidden; position: absolute; z-index: 0;">
+                                                    <div style="left: 0px; top: 0px; position: absolute; z-index: 1; cursor: url(http://maps.gstatic.com/mapfiles/openhand_8_8.cur), default; -ms-transform: matrix(1, 0, 0, 1, 0.5, 0); -ms-transform-origin-x: 0px; -ms-transform-origin-y: 0px;"  __e3_="[object Object]">
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 100;" >
+                                                            <div style="left: 0px; top: 0px; position: absolute; z-index: 0;">
+                                                                <div style="left: 0px; top: 0px; position: absolute; z-index: 1;">
+                                                                    <div class="gmnoprint" style="left: -248px; top: -172px; width: 256px; height: 256px; position: absolute; opacity: 0.01; background-color: white;"></div>
+                                                                    <div class="gmnoprint" style="left: -248px; top: 84px; width: 256px; height: 256px; position: absolute; opacity: 0.01; background-color: white;"></div>
+                                                                    <div class="gmnoprint" style="left: 8px; top: -172px; width: 256px; height: 256px; position: absolute; opacity: 0.01; background-color: white;"></div>
+                                                                    <div class="gmnoprint" style="left: 8px; top: 84px; width: 256px; height: 256px; position: absolute; opacity: 0.01; background-color: white;"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 101;"></div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 102;">
+                                                            <div style="z-index: 1; position: absolute; top: 0px; left: 0px;">
+                                                                <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: -184px; left: -126px;" __e3_="[object Object]" ga="[object Object]" oa="(587, 772)" Sd="[object Object]"></div>
+                                                                <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: 72px; left: -126px;" __e3_="[object Object]" ga="[object Object]" oa="(587, 773)" Sd="[object Object]"></div>
+                                                                <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: -184px; left: 130px;" __e3_="[object Object]" ga="[object Object]" oa="(588, 772)" Sd="[object Object]"></div>
+                                                                <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: 72px; left: 130px;" __e3_="[object Object]" ga="[object Object]" oa="(588, 773)" Sd="[object Object]"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 103;">
+                                                            <div style="left: 0px; top: 0px; position: absolute; z-index: -1;">
+                                                                <div style="left: 0px; top: 0px; position: absolute; z-index: 1;">
+                                                                    <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: -184px; left: -126px;" __e3_="[object Object]" ga="[object Object]" oa="(587, 772)" Sd="[object Object]"></div>
+                                                                    <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: 72px; left: -126px;" __e3_="[object Object]" ga="[object Object]" oa="(587, 773)" Sd="[object Object]">
+                                                                        <div id="gm_marker_33" style="z-index: 45097; position: absolute; width: 20px; height: 34px; overflow: hidden; top: 11px; left: 186px;">
+                                                                            <img style="position: absolute; width: 20px; height: 34px; top: 0px; left: 0px;" src="http://www.homeaway.com/resources/images/marker/unit-marker.png" complete="complete"/>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: -184px; left: 130px;" __e3_="[object Object]" ga="[object Object]" oa="(588, 772)" Sd="[object Object]"></div>
+                                                                    <div style="position: absolute; width: 256px; height: 256px; overflow: hidden; top: 72px; left: 130px;" __e3_="[object Object]" ga="[object Object]" oa="(588, 773)" Sd="[object Object]"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 104;"></div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 105;"></div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 106;"></div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 0;">
+                                                            <div style="z-index: 1; position: absolute; top: 0px; left: 0px;">
+                                                                <div style="position: absolute; filter: alpha(opacity=100); WIDTH: 256px; height: 256px; top: -184px; left: 130px;" __e3_="[object Object]" ga="[object Object]" kb="false" oa="(588, 772)" Sd="undefined" b="undefined">
+                                                                    <img width="1" height="1" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 256px; padding-right: 0px; height: 256px; border-top: 0px; border-right: 0px; padding-top: 0px;" src="http://mt0.googleapis.com/vt?lyrs=m@189302430&src=apiv3&hl=en-US&x=588&y=772&z=11&s=&style=api%7Csmartmaps" complete="complete" draggable="false" e="[object Object]" __src__="http://mt0.googleapis.com/vt?lyrs=m@189302430&src=apiv3&hl=en-US&x=588&y=772&z=11&s=&style=api%7Csmartmaps" __gm_ticket__="3" gm_id="null" unselectable="on" galleryImg="no"/>
+                                                                </div>
+                                                                <div style="position: absolute; filter: alpha(opacity=100); WIDTH: 256px; height: 256px; top: -184px; left: -126px;" __e3_="[object Object]" ga="[object Object]" kb="false" oa="(587, 772)" Sd="undefined" b="undefined">
+                                                                    <img width="1" height="1" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 256px; padding-right: 0px; height: 256px; border-top: 0px; border-right: 0px; padding-top: 0px;" src="http://mt1.googleapis.com/vt?lyrs=m@189290725&src=apiv3&hl=en-US&x=587&y=772&z=11&s=Galil&style=api%7Csmartmaps" complete="complete" draggable="false" e="[object Object]" __src__="http://mt1.googleapis.com/vt?lyrs=m@189290725&src=apiv3&hl=en-US&x=587&y=772&z=11&s=Galil&style=api%7Csmartmaps" __gm_ticket__="3" gm_id="null" unselectable="on" galleryImg="no"/>
+                                                                </div>
+                                                                <div style="position: absolute; filter: alpha(opacity=100); WIDTH: 256px; height: 256px; top: 72px; left: 130px;" __e3_="[object Object]" ga="[object Object]" kb="false" oa="(588, 773)" Sd="undefined" b="undefined">
+                                                                    <img width="1" height="1" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 256px; padding-right: 0px; height: 256px; border-top: 0px; border-right: 0px; padding-top: 0px;" src="http://mt0.googleapis.com/vt?lyrs=m@189290144&src=apiv3&hl=en-US&x=588&y=773&z=11&s=G&style=api%7Csmartmaps" complete="complete" draggable="false" e="[object Object]" __src__="http://mt0.googleapis.com/vt?lyrs=m@189290144&src=apiv3&hl=en-US&x=588&y=773&z=11&s=G&style=api%7Csmartmaps" __gm_ticket__="3" gm_id="null" unselectable="on" galleryImg="no"/>
+                                                                </div>
+                                                                <div style="position: absolute; filter: alpha(opacity=100); WIDTH: 256px; height: 256px; top: 72px; left: -126px;" __e3_="[object Object]" ga="[object Object]" kb="false" oa="(587, 773)" Sd="undefined" b="undefined">
+                                                                    <img width="1" height="1" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 256px; padding-right: 0px; height: 256px; border-top: 0px; border-right: 0px; padding-top: 0px;" src="http://mt1.googleapis.com/vt?lyrs=m@189397029&src=apiv3&hl=en-US&x=587&y=773&z=11&s=Galile&style=api%7Csmartmaps" complete="complete" draggable="false" e="[object Object]" __src__="http://mt1.googleapis.com/vt?lyrs=m@189397029&src=apiv3&hl=en-US&x=587&y=773&z=11&s=Galile&style=api%7Csmartmaps" __gm_ticket__="3" gm_id="null" unselectable="on" galleryImg="no"/>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="left: 0px; top: 0px; position: absolute; z-index: 0;">
+                                                            <div style="left: 0px; top: 0px; position: absolute; z-index: 1;"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="left: 0px; bottom: 0px; margin-top: 2px; margin-right: 5px; margin-bottom: 2px; margin-left: 2px; position: absolute; z-index: 1000000;">
+                                                    <a title="Click to see this area on Google Maps" style="overflow: visible; float: none; display: inline; position: static;" href="http://maps.google.com/maps?ll=40.412571,-3.713879&z=11&t=m&hl=en-US" target="_blank">
+                                                        <div style="width: 62px; height: 24px; cursor: pointer;">
+                                                            <img width="1" height="1" style="left: 0px; top: 0px; width: 62px; height: 24px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-color: currentColor; border-right-color: currentColor; border-bottom-color: currentColor; border-left-color: currentColor; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; position: absolute;" src="http://maps.gstatic.com/mapfiles/google_white.png"/>
+                                                            <div class="gmnoprint" style="left: 0px; top: 0px; width: 100%; height: 100%; position: absolute; opacity: 0.01; background-color: white;">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="gmnoprint" style="width: 116px; right: 0px; bottom: 0px; position: absolute; z-index: 1000001;">
+                                                    <div style="height: 19px; line-height: 15px;">
+                                                        <div style="width: 100%; height: 100%; position: absolute; opacity: 0.45; background-color: rgb(245, 245, 245);">
+                                                        </div>
+                                                        <div style="text-align: right; color: #444; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; font-family: Arial,sans-serif; font-size: 10px; white-space: nowrap; position: relative; direction: ltr;">
+                                                            <a style="color: #444; text-decoration: underline; cursor: pointer;">Map Data</a>
+                                                            <span style="display: none;">Map data ©2012 Google</span>
+                                                            <span> - </span>
+                                                            <a style="color: #444; text-decoration: underline; cursor: pointer;" href="http://www.google.com/intl/en-US_US/help/terms_maps.html" target="_blank">Terms of Use</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="left: 5px; top: 28px; width: 86px; height: 148px; color: #222; padding-top: 15px; padding-right: 21px; padding-bottom: 15px; padding-left: 21px; font-family: Arial,sans-serif; border-top-color: #ababab; border-right-color: #ababab; border-bottom-color: #ababab; border-left-color: #ababab; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: none; position: absolute; z-index: 10000002; box-shadow: 0px 4px 16px rgba(0,0,0,0.2); background-color: white;">
+                                                    <div style="padding-top: 0px; padding-right: 0px; padding-bottom: 10px; padding-left: 0px; font-size: 16px;">Text - Map Data</div>
+                                                    <div style="font-size: 13px;">Map data ©2012 Google</div>
+                                                    <div style="top: 12px; width: 10px; height: 10px; right: 12px; overflow: hidden; position: absolute; z-index: 10000; cursor: pointer; opacity: 0.7;">
+                                                        <img width="1" height="1" style="border-bottom: 0px; position: absolute; border-left: 0px; padding-bottom: 0px; margin: 0px; padding-left: 0px; width: 68px; padding-right: 0px; height: 67px; border-top: 0px; top: -44px; border-right: 0px; padding-top: 0px; left: -18px; -khtml-user-drag: none;" src="http://maps.gstatic.com/mapfiles/mv/imgs8.png" complete="complete" draggable="false" e="[object Object]" __src__="http://maps.gstatic.com/mapfiles/mv/imgs8.png" __gm_ticket__="1" gm_id="null" unselectable="on" galleryImg="no"/>
+                                                    </div>
+                                                </div>
+                                                <div class="gmnoscreen" style="right: 0px; bottom: 0px; position: absolute;">
+                                                    <div style="text-align: right; color: #444; font-family: Arial,sans-serif; font-size: 10px; direction: ltr; background-color: rgb(245, 245, 245);">Map data ©2012 Google</div>
+                                                </div>
+                                                <div class="gmnoprint" style="height: 17px; right: 0px; bottom: 0px; line-height: 19px; font-size: 10px; border-top-color: #dcdcdc; border-right-color: #dcdcdc; border-bottom-color: #dcdcdc; border-left-color: #dcdcdc; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; display: none; position: absolute; background-color: rgb(245, 245, 245);">
+                                                    <a title="Report errors in the road map or imagery to Google" style="bottom: 1px; color: #444; padding-top: 1px; padding-right: 3px; padding-bottom: 1px; padding-left: 3px; font-family: Arial,sans-serif; font-size: 85%; font-weight: bold; text-decoration: none; position: relative;" href="http://maps.google.com/maps?ll=40.412571,-3.713879&z=11&t=m&hl=en-US&skstate=action:mps_dialog$apiref:1" target="_new">Report a map error</a>
+                                                </div>
+                                                <div class="gmnoprint" style="left: 0px; top: 0px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; position: absolute;" controlWidth="22" controlHeight="44">
+                                                    <div class="gmnoprint" style="display: none; position: absolute; opacity: 0.6;" controlWidth="0" controlHeight="0">
+                                                        <img width="1" height="1" title="Rotate map 90 degrees" style="width: 22px; height: 22px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-color: currentColor; border-right-color: currentColor; border-bottom-color: currentColor; border-left-color: currentColor; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; cursor: pointer;" src="http://maps.gstatic.com/mapfiles/rotate2.png"/>
+                                                    </div>
+                                                    <div class="gmnoprint" style="left: 0px; top: 5px; position: absolute;" controlWidth="22" controlHeight="39">
+                                                        <img width="1" height="1" style="width: 22px; height: 39px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-color: currentColor; border-right-color: currentColor; border-bottom-color: currentColor; border-left-color: currentColor; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none;" src="http://maps.gstatic.com/mapfiles/szc4.png"/>
+                                                        <div title="Zoom in" style="left: 0px; top: 0px; width: 22px; height: 17px; position: absolute; cursor: pointer; opacity: 0.01; background-color: white;"></div>
+                                                        <div title="Zoom out" style="left: 0px; top: 18px; width: 22px; height: 17px; position: absolute; cursor: pointer; opacity: 0.01; background-color: white;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="buttons">
+        	                                <div class="button-base pdp-light small favorite-container" ref="trips-237615-3025113">
+                                                <div class="fn-checklist button-txt" data-spu="fav-trips-237615-3025113" data-favorites="" id="fav-trips-237615-3025113"><div class="checklist-button">
+                                                    <span class="checklist-button-text-wrapper">
+                                                        <span class="checklist-button-text sprites-heart_pink">Favorites</span>
+                                                    </span> 
+                                                    <span class="checklist-button-dropdown-wrapper">
+                                                        <span class="sprites-arrow checklist-button-dropdown"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+        	                            </div>
+				                            <a href="/vacation-rental/p237615" class="orange-square-button-lg"><span>View Details</span></a>
+			                            </div>
+                                        <div class="clear"></div>
+                                    </div>
+                                    <div class="unit-photos">
+                                                    <table class="jcarousel" id="3283988-3283988-photos" cellSpacing="0">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <div class="photo">
+                                                                        <a href="#">
+                                                                            <img width="239" height="178" title="Wailea villa rental - Incredible Outdoor Veranda with Panoramic Ocean..." id="thumbnail-0" alt="Wailea villa rental - Incredible Outdoor Veranda with Panoramic Ocean..." src="http://imagesus.homeaway.com/vd2/files/WVR/400x300/ue/3283892/973368_1349366667469.jpg"/>
+                                                                            <img width="239" height="178" title="Wailea villa rental - Indoor and Outdoor Dining Options" id="thumbnail-1" style="display: none;" alt="Wailea villa rental - Indoor and Outdoor Dining Options" src="http://imagesus.homeaway.com/vd2/files/WVR/400x300/ue/3283892/973368_1349366668955.jpg"/>
+                                                                            <img width="239" height="178" title="Wailea villa rental - Indoor and Outdoor Dining Options" id="thumbnail-2" style="display: none;" alt="Wailea villa rental - Indoor and Outdoor Dining Options" src="http://imagesus.homeaway.com/vd2/files/WVR/400x300/ue/3283892/973368_1349366670372.jpg"/>
+                                                                        </a>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="jcarousel-icons">
+                                                                    <div class="photo-carousel-container">
+                                                                        <div class=" jcarousel-skin">
+                                                                            <div class="jcarousel-container jcarousel-container-horizontal" style="display: block; position: relative;">
+                                                                                <div class="jcarousel-clip jcarousel-clip-horizontal" style="overflow: hidden; position: relative;">
+                                                                                    <ul class="jcarousel-list jcarousel-list-horizontal" style="left: 0px; top: 0px; width: 341px; overflow: hidden; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; position: relative;">
+                                                                                        <li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-1 jcarousel-item-1-horizontal" style="float: left; list-style-type: none; list-style-position: outside; list-style-image: none;" jcarouselindex="1">
+                                                                                            <div class="thumbnail " id="thumbnail-0" index="0"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-1" index="1"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-2" index="2"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-3" index="3"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-4" index="4"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-5" index="5"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-6" index="6"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-7" index="7"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-8" index="8"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-9" index="9"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-10" index="10"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-11" index="11"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-12" index="12"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-13" index="13"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-14" index="14"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-15" index="15"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-16" index="16"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-17" index="17"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-18" index="18"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-19" index="19"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-20" index="20"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-21" index="21"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-22" index="22"></div>
+                                                                                            <div class="thumbnail " id="thumbnail-23" index="23"></div>
+                                                                                            <div class="thumbnail empty" id="thumbnail-24" index="24"></div>
+                                                                                        </li>
+                                                                                    </ul>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                    <div class="cal-content left">
+                                        <div class="month first">
+				                            <table cellspacing="0" cellpadding="0">
+					                            <thead>
+						                            <tr class="heading">
+						                                <th colspan="7" class="month-label" nowrap="">October 2012</th>
+						                            </tr>
+						                            <tr>
+	        						                    <th class="day-label"><abbr title="Sunday">s</abbr></th>
+	        						                    <th class="day-label"><abbr title="Monday">m</abbr></th>
+		        					                    <th class="day-label"><abbr title="Tuesday">t</abbr></th>
+		        					                    <th class="day-label"><abbr title="Wednesday">w</abbr></th>
+		        					                    <th class="day-label"><abbr title="Thursday">t</abbr></th>
+		        					                    <th class="day-label"><abbr title="Friday">f</abbr></th>
+		        					                    <th class="day-label"><abbr title="Saturday">s</abbr></th>
+        				                            </tr>
+        			                            </thead>
+        			                            <tbody>
+        					<tr>
+        							<td class="e">-</td>
+        							<td class="a">1</td>
+        							<td class="a">2</td>
+        							<td class="a">3</td>
+        							<td class="a">4</td>
+        							<td class="a">5</td>
+        							<td class="a">6</td>
+        					</tr>
+        					<tr>
+        							<td class="a">7</td>
+        							<td class="a">8</td>
+        							<td class="a">9</td>
+        							<td class="a">10</td>
+        							<td class="a">11</td>
+        							<td class="a">12</td>
+        							<td class="a">13</td>
+        					</tr>
+        					<tr>
+        							<td class="a">14</td>
+        							<td class="a">15</td>
+        							<td class="a">16</td>
+        							<td class="a">17</td>
+        							<td class="a">18</td>
+        							<td class="a">19</td>
+        							<td class="a">20</td>
+        					</tr>
+        					<tr>
+        							<td class="a">21</td>
+        							<td class="a">22</td>
+        							<td class="a">23</td>
+        							<td class="a">24</td>
+        							<td class="a">25</td>
+        							<td class="a">26</td>
+        							<td class="a">27</td>
+        					</tr>
+        					<tr>
+        							<td class="a">28</td>
+        							<td class="a">29</td>
+        							<td class="a">30</td>
+        							<td class="a">31</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        					</tr>
+        					<tr>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        					</tr>
+        			</tbody>
+        		                            </table>
+        	                            </div>
+                                        <div class="month">
+				                            <table cellspacing="0" cellpadding="0">
+					<thead>
+						<tr class="heading">
+						<th colspan="7" class="month-label" nowrap="">November 2012</th>
+						</tr>
+						<tr>
+	        						<th class="day-label"><abbr title="Sunday">s</abbr></th>
+	        						<th class="day-label"><abbr title="Monday">m</abbr></th>
+		        					<th class="day-label"><abbr title="Tuesday">t</abbr></th>
+		        					<th class="day-label"><abbr title="Wednesday">w</abbr></th>
+		        					<th class="day-label"><abbr title="Thursday">t</abbr></th>
+		        					<th class="day-label"><abbr title="Friday">f</abbr></th>
+		        					<th class="day-label"><abbr title="Saturday">s</abbr></th>
+        				</tr>
+        			</thead>
+        			<tbody>
+        					<tr>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="a">1</td>
+        							<td class="a">2</td>
+        							<td class="a">3</td>
+        					</tr>
+        					<tr>
+        							<td class="a">4</td>
+        							<td class="a">5</td>
+        							<td class="a">6</td>
+        							<td class="a">7</td>
+        							<td class="a">8</td>
+        							<td class="a">9</td>
+        							<td class="a">10</td>
+        					</tr>
+        					<tr>
+        							<td class="a">11</td>
+        							<td class="a">12</td>
+        							<td class="a">13</td>
+        							<td class="a">14</td>
+        							<td class="a">15</td>
+        							<td class="a">16</td>
+        							<td class="a">17</td>
+        					</tr>
+        					<tr>
+        							<td class="a">18</td>
+        							<td class="a">19</td>
+        							<td class="a">20</td>
+        							<td class="a">21</td>
+        							<td class="a">22</td>
+        							<td class="a">23</td>
+        							<td class="a">24</td>
+        					</tr>
+        					<tr>
+        							<td class="a">25</td>
+        							<td class="a">26</td>
+        							<td class="a">27</td>
+        							<td class="a">28</td>
+        							<td class="a">29</td>
+        							<td class="a">30</td>
+        							<td class="e">-</td>
+        					</tr>
+        					<tr>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        							<td class="e">-</td>
+        					</tr>
+        			</tbody>
+        		</table>
+        	                            </div>
+                                    </div>
+                                    <div class="clear"></div>
+				                </div>
+			               </div>	
+			            <div class="preview-btm"></div>
+		            </div>
+		        </div>
+                    <div id="featured-property-2" data-previewId="3260460-950096" class="featured-property listing preview-listing-3260460-950096 ">
+			            <a href="#" alt="Advertisement Two" title="Advertisement Two" style="background-image: url(http://imagesus.homeaway.com/mda01/45b79dd7-8881-4cb0-9393-3025f9e0629f.1.14);" class="featured-photo preview-trigger preview-trigger-3260460-950096">
+                            <div id="img-3260460-950096" class="img-overlay preview-icon-3260460-950096"></div></a>
+    		            <a class="button-base small light" href="~/Advertisement/2">View this Ad</a><br/>
+    		            <span class="featured-region">View all in  
+			                <a href="#" alt="Advertisement Two" title="Advertisement Two">
+				         Waltham
+			            </a>
+			            </span>
+		            </div>
+                    <div id="target-3229011-918626" class="listing-hover hidden preview-modal-3229011-918626" spu="trips-918626-3229011">
+			            <div class="preview-top">
+				            <div class="preview-target">
+					            <div class="preview-loading">
+                                    <img src="http://resources.homeaway.com/resources/2a7f5025/images/icon/loading-blue-lg.gif"/>
+                                </div>
+				            </div>
+			            </div>	
+			            <div class="preview-btm"></div>
+		            </div>
+                    <div id="featured-property-3" data-previewId="3028493-240994" class="featured-property listing preview-listing-3028493-240994  last">
+			        <a href="/vacation-rental/p240994" alt="Advertisement Three" title="Advertisement Three" style="background-image: url(http://imagesus.homeaway.com/mda01/d212fa78d212fb7b93bf617ecc58645b4b776116);" class="featured-photo preview-trigger preview-trigger-3028493-240994"><div id="img-3028493-240994" class="img-overlay preview-icon-3028493-240994"></div></a>
+    		        <a class="button-base small light" href="~/Advertisement/3">View this Ad</a><br/>
+    		        <span class="featured-region">View all in  
+			        <a href="#" alt="Marathon house rental - Backside of Mar Azul" title="Marathon house rental - Backside of Mar Azul">
+				        Weymouth
+			        </a>
+			        </span>
+		        </div>
+                    <div id="target-3260460-950096" class="listing-hover hidden preview-modal-3260460-950096" spu="trips-950096-3260460">
+			            <div class="preview-top">
+				            <div class="preview-target">
+					            <div class="preview-loading">
+                                    <img src="http://resources.homeaway.com/resources/2a7f5025/images/icon/loading-blue-lg.gif"/>
+                                </div>
+				            </div>
+			            </div>	
+			            <div class="preview-btm"></div>
+		            </div>
+                </div>
+		        <div class="clear"></div>
+                <div id="main">
+	            <div id="search-results" class="global-container">
+		            <div id="search-headline">
+			            <div class="gpOneSearch">
+				            <g:plusone size="medium"></g:plusone>
+			            </div>
+				        <h1>All Businesses<span class="total-count"><span id="hit-count">(337,143)</span></span></h1>
+			            <div class="clear"></div>
+		            </div>
+		            <div id="search-topbar">
+				       @* <div id="sidebar-search">
+					        <div class="form clear">
+						        <form id="sideBarSearchForm" name="searchForm" action="/searchForm" method="get">
+							        <input type="text" id="sidebarKeywords" name="keywords" rel="Where are you going?" class="default input-keyword focus-input" value="" />
+							        <input type="hidden" id="refinements" value="" name="refinements" />
+							        <div id="sideBarSearchFormButton" class="button-base orange small">Go</div>
+							        <div class="clear"></div>
+						        </form>
+					        </div>
+				        </div> 
+			            <div class="clear"></div>*@
+		            </div>
+                    <div id="search-content">
+			            @*<div class="column-left">
+			                <form id="refineSearchform" class="sidebar-section" name="refineSearchForm" method="get" action="/searchForm" accept-charset="UTF-8">
+			    	            <input type="hidden" value="Search+by+destination%2C+property+ID%2C+or+keyword" name="keywords" />
+	  					            <input type="hidden" id="refinements" value="" name="refinements" />
+	  					            <input type="text" id="startDateInput" name="startDateInput" value="" rel="Check-in" class="datepicker datepicker-start" onkeydown="return false;" readonly="readonly" />
+	    			            <input type="text" id="endDateInput" name="endDateInput" value="" rel="Check-out" class="datepicker datepicker-end" onkeydown="return false;" readonly="readonly" />
+					            <div class="clear"></div>
+	    		            </form>
+                            <div id="sidebarContent">
+	                            <div id="sidebar-criteria">
+		                            <div class="sidebar-section hidemenu">
+                                        <div class="select" id="propertyType-select">
+	                                        <h4>Business Type</h4>
+	                                        <ul class="make-menu" id="propertyType-element">
+		                                        <li>
+					                                    Any
+		                                        </li>
+			                                    <li>
+						                                Automotive
+				                                    <span class="count">(15)</span>
+			                                    </li>
+			                                    <li>
+						                                Restaurants
+				                                    <span class="count">(75)</span>
+			                                </li>
+			                                <li>
+						                                Contractors
+				                                    <span class="count">(32)</span>
+			                                </li>
+			                                <li>
+						                                 Shopping
+				                                     <span class="count">(102)</span>
+			                                </li>
+                                            <li>
+						                                Personal Care
+				                                    <span class="count">(36)</span>
+			                                </li>
+			                                <li>
+						                                 Home & Garden
+				                                     <span class="count">(41)</span>
+			                                </li>
+                                            <li>
+						                                 Other
+				                                     <span class="count">(201)</span>
+			                                </li>
+	                                    </ul>
+                                    </div>
+		                        </div>
+	                        </div>
+                        </div>
+                    </div>*@
+                        <div class="column-right">
+				            <div class="search-tabs" id="search-tab-box">
+					            <a href="/search?view=l" id="list-view-button"  class="on"><span>List View</span></a>
+					            <a href="/search?view=g" id="grid-view-button"><span>Photos View</span></a>
+					            <a href="/search?view=m" id="map-view-button"><span>Map View</span></a>
+							    <a href="/favorites" id="favorite-view-button"><span class="heart sprites-tabHeart">&nbsp;</span><span class="favorite-tab-count">Favorites <span class="favorite-count">(0)</span></span></a>
+					            <div class="clear"></div>
+				            </div>
+				            <div class="clear"></div>
+	                        <div id="gbs-tree" class="gbs-tree">
+		                        <div id="nodes">
+						            <div id="node-1" class="node-name-off">Massachusetts</div> 
+			                        <div class="clear"></div>
+		                        </div>
+		                        <div id="gbs-nodes" class="node-box partial-box">
+			                        <div class="content">
+				                        <div>
+						                    <div class="node-links">
+							                    <ul class="first">
+									                    <li><a href="#" class="region-refinement">
+                                                        Boston
+									                    (1,633)
+									                    </a></li>
+									                    <li><a href="#" class="region-refinement">
+                                                        Worcester
+									                    (89)
+									                    </a></li>
+									                    <li><a href="#" class="region-refinement">
+                                                        Waltham
+									                    (18,647)
+									                    </a></li>
+									                    <li><a href="#" class="region-refinement">
+                                                        Raynham
+									                    (2,791)
+									                    </a></li>
+									                    <li><a href="#" class="region-refinement">
+                                                        Quincy
+									                    (10,982)
+									                    </a></li>
+							                    </ul>
+						                    </div>
+					                        <div class="clear"></div>
+				                        </div>
+			                        </div>
+		                        </div>
+		                        <div class="clear"></div>
+	                        </div>
+				            <div>	
+	                            <div class="search-page-options">
+		                            <div class="pages-per">
+			                            <label for="count">Show
+				                            <select name="count" class="page-size">
+						                            <option value="15">15</option>
+						                            <option value="30" selected="selected">30</option>
+						                            <option value="60">60</option>
+				                            </select>&nbsp;Ads
+			                            </label>
+		                            </div>
+		                            <div class="sort-order">
+			                            Sort Ads By:&nbsp;<select class="page-sort">
+		                                <option selected="selected" value="listingScore:+">AdvertisedOn Sort</option>
+		                                <option  value="averageRating:-">Average Rating </option>
+		                                <option  value="availabilityUpdated:-">By City</option>
+		                                <option  value="paidPlacement_ols_sort:-">By Category</option>
+		                                <option  value="prices:-">Price: High to Low</option>
+		                                <option  value="prices:+">Price: Low to High</option>
+		                                <option  value="reviewCount:-">Number of Reviews</option>
+		                                <option  value="specialOfferCount:-">Special Offers First</option>
+		                                </select>
+		                            </div>
+		                            <div class="compare-button">
+			                            <div jsObj="1:/search" title="Compare Selected"><span>Compare Selected</span></div>
+		                            </div>		
+		                            <div class="clear"></div>
+	                            </div>
+                                <div class="pager">
+	                                <div class="paginationLinks">
+		                                <span class="current"><span>1</span></span>
+			                                <a class="basic-page" href="/search/page:2"><span>2</span></a>
+			                                <a class="basic-page" href="/search/page:3"><span>3</span></a>
+			                                <a class="basic-page" href="/search/page:4"><span>4</span></a>
+			                                <a class="basic-page" href="/search/page:5"><span>5</span></a>
+				                                <span class="last-page-lead">....</span><a href="/search/page:1000" class="last"><span>1000</span></a>
+			                                <a href="/search/page:2" class="next sprites-pager-arws">Next</a>
+	                                </div>
+	                                <div class="clear"></div>
+                                </div>
+							    <div class="clear"></div>
+								    <div id="hit-container" class="preview-container ">
+                                            <div id="listing-3088095-325932" data-previewId="3088095-325932" ref="trips-325932-3088095" class="listing non-Grouped listing-spu-trips-325932-3088095 favorite-container preview-listing-3088095-325932 ">
+	                                            <div class="listing-faces">
+                                                    <div class="listing-face listing-face-3088095 active">
+                                                        <div class="unitToggle active" data-identifier="3088095-325932" data-unitId="3088095">
+	                                                        <div class="unitToggleHeadline">The Largest Renter of Home Gym Equipment</div>
+	                                                            <ul class="details">Stair Masters, 
+                                                                    <li class='summary-list-item-li'>
+                                                                        <div class='summary-list-item'><span class='count'>9</span> <span class='title'>Weight Benches</span><span class='comma'>,&nbsp;</span>
+                                                                        </div>
+                                                                    </li>
+                                                                    <li class='summary-list-item-li'>
+                                                                        <div class='summary-list-item'><span class='count'>2</span> <span class='title'>Half Baths</span>
+                                                                        </div>
+                                                                    </li>, Free Weights 22
+                                                                </ul>
+                                                            </div>
+                                                        <div class="listing-face-content">
+	                                                        <div class="listing-tab"> 
+		                                                        <ul class="listing-tabs hasFavorites">
+				                                                    <li class="viewed first" id="inq-viewed-trips-325932-3088095">Viewed</li>
+				                                                    <li class="favorite">
+                                                                        <div class="fn-checklist " data-spu="fav-trips-325932-3088095" data-favorites="" id="fav-trips-325932-3088095"></div>
+                                                                    </li>
+			                                                        <li class="checkbox-container last">
+				                                                        <div class="unit-compare">
+					                                                        <div class="checkbox">
+						                                                        <input type="checkbox" name="unit-id-3088095" id="unit-id-3088095" value="3088095:325932" class="unit-id" />
+					                                                        </div>
+					                                                    <div class="label">
+						                                                    <label for="unit-id-3088095" alt="Compare" title="Compare"></label>
+					                                                    </div>
+					                                                    <div class="clear"></div>
+				                                                        </div>
+			                                                        </li>
+			                                                        <div class="clear"></div>
+		                                                        </ul>
+	                                                    </div>
+	                                                    <div class="clear"></div>
+	                                                    <div class="listing-main">
+	                                                        <div class="content-container">
+     		                                                    <div id="trigger-3088095-325932" class="listing-photo preview-trigger preview-trigger-3088095-325932">
+			                                                        <div class="listing-photo-box">
+						                                                <div class="listing-img imgDelayLoadRef" ref="http://imagesus.homeaway.com/mda01/d362dea9-ecd3-4e8d-a667-16dfab494c15.1.14">
+							                                                <a href="#" class="listing-url">
+								                                                <img class="listing-image" src="http://resources.homeaway.com/resources/2a7f5025/images/t.gif" height="92" width="122" title="" alt=""/>
+							                                                </a>
+						                                                </div>
+				                                                    <div id="img-3088095-325932" class="img-overlay preview-icon-3088095-325932"></div>
+			                                                    </div>
+       	                                                    </div>
+                                                     <div class="main-container">
+        	                                            <div class="listing-title-container">
+	                                            <h3 class="listing-title">
+		                                            <a href="#" class="listing-url">The Largest Renter of Home Gym Equipment</a>
+	                                            </h3>
+                                            </div>
+	                                           
+                                            <div class="listing-breadcrumb">
+	                                            <div class="breadcrumb">
+		                                            <ol>
+			                                            <li>Watham&nbsp;&gt;</li>
+		                                            </ol>
+	                                            </div>	
+                                            </div>
+                                            <div class="body-footer">
+    	                                            <div class="review-text review-lnk">
+    		                                            <div style="float:left;"><span class="highlight">34</span> Reviews</div>
+    			                                            <div class="rating-5"></div>
+   		                                            </div>
+                                                <div class="property-text"><span class="listing-propertyid">#325932</span></div>
+                                            </div>
+                                            <br>
+                                            </div>
+		                                            <div class="right-container">
+			                                            <div class="listing-icons">
+					                                            <div class="pm-icon sprites-listing-icons whatsnew pmbubble3088095-325932 nowrap">
+						                                            <img src="http://resources.homeaway.com/resources/2a7f5025/images/t.gif" width="34" height="34" title="" alt="" />
+					                                            </div>
+					                                            <div class="pmbubble3088095-325932-info pmbubble-info" style="display:none">
+						                                            <a href="#">
+							                                            <p class="pm-bubble">
+								                                            <img class="pm-logo" src="http://imagesus.homeaway.com/vd2/files/wvr/profiles/637636_use.jpg" />
+								                                            <div class="pm-text">view all equipment from this business.</div>
+							                                            </p>
+						                                            </a>
+					                                            </div>
+				                                            <div class="clear"></div>
+			                                            </div>
+	                                            <div class="rates">
+				                                            <span class="price">$929 - 
+							                                            $1,214</span> <span class="period">month</span>
+	                                            </div>
+	                                            <div class="rates">
+				                                            <span class="price">$6,500 - 
+							                                            $8,500</span> <span class="period">year</span>
+	                                            </div>
+		                                            <div class="clear"></div>
+	                                            </div>
+                                            </div>
+                                                        </div>
+                                                        </div>
+	                                                </div>			
+                                                    <span class="fn-note-wrapper"><span class="fn-note"></span></span>	
+	                                                <div class="rbbtm"></div>
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		    </div>
+        </div>
+        <div id="footer">
+	        <div class="clear"></div>
+	        <div id="searchTextPosition" class="searchResultsSeo"></div>
+	        <div id="footer-nav">
+		        <ul>
+			        <li><a href="#">Site Map</a></li>
+			        <li><a href="#">Contact Us</a></li>
+			        <li><a href="#">About Us</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+			        <li class='last'><a href="#">Privacy Policy</a></li>
+		        </ul>
+	        </div>
+            <p>
+                <div style="text-align: center;">
+                    <p>Use of this Web site constitutes acceptance of the AdvertisedOn.com <a href="#">Terms and Conditions</a> and <a href="#">Privacy Policy</a>.</p>
+                    <p id="copyright">&copy; Copyright 2012-Present AdvertisedOn.com, Inc. All rights reserved.</p>
+                </div>
+            </p>
+        </div>
+    </div>
+</body>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")
+    @Scripts.Render("~/bundles/jqueryui")
+
+    <script type="text/javascript">
+        $(function () {
+            $("#featured-property-1").hover(
+                function () {
+                    $("#target-1192363-851108").toggle(400);
+                },
+                function () {
+                    
+                }
+             );
+        });
+    </script> 
+}

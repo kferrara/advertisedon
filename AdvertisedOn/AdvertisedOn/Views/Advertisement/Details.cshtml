@@ -1,0 +1,37 @@
+﻿@model AdvertisedOn.Models.Advertisement
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>ToDoItem</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Heading.Text)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Heading.Text)
+    </div> 
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.EffectiveDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.EffectiveDate)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.ExporationDate)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.ExporationDate)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.AdvertisementId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+

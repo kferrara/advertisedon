@@ -1,0 +1,13 @@
+﻿@if (Request.IsAuthenticated) {
+    <p>
+        Hello, @Html.ActionLink(User.Identity.Name, "ChangePassword", "Account", routeValues: null, htmlAttributes: new { @class = "username", title = "Change password" })!
+        @Html.ActionLink("Log off", "LogOff", "Account")
+    </p>
+} else {
+    <ul>
+        <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Customer Login in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        <li>@Html.ActionLink("Business User Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+        <li>@Html.ActionLink("Advertise Your Business", "Advertisement", "Create", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

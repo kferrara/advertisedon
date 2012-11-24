@@ -1,0 +1,37 @@
+﻿@model  IEnumerable<AdApp1.Models.Advertisement>
+
+<div class="shadow">
+    <div class="wrapper">
+        <div class="span-25 last"><br />
+          <div class="span-1">&nbsp;</div>
+          <div class="span-8">
+            @foreach (var item in Model) 
+            {  
+                <div class="quickFlip">
+                    <div class="redPanel">
+                        <h4 class="first quickFlipCta">@item.Heading.Text</h4>
+
+                        <a href="#">
+     	                <img src="~/Images/personal.jpg"  width="64px" height="64px" align="left" class="img5" />
+                        </a>
+                        <span style="display:block;"><strong>It's All About Mom!</strong></span>
+                        <span style="display:block;">$39 Introductory 1-hour massage session*</span> 
+                        <span style="display:block;"><a href="#" class="quickFlipCta">More info</a></span>
+    
+                    </div>
+  
+                    <div class="blackPanel">
+                        <a href="#" class="quickFlipCta">[X]</a><span style="display:block;">It's All About Mom!</span>
+                            <span style="display:block;">$39 Introductory 1-hour massage session*</span>
+		                    <span style="display:block;">@Html.ActionLink("Full Details", "Details", "Advertisement", new { id=item.AdvertisementId }, null)</span>
+        
+                    </div>
+                </div>  
+            } 
+          </div>
+        </div>
+    </div>
+    <br />
+    <br />
+</div>
+

@@ -1,0 +1,92 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:About.cshtml" caret="0" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Contact.cshtml" caret="510" fromTop="26" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Account/f:ChangePassword.cshtml" caret="0" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:HomeController.cs" caret="286" fromTop="11" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:AccountController.cs" caret="527" fromTop="23" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Migrations/f:201211231327002_Initial.cs" caret="193" fromTop="7" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Migrations/f:Configuration.cs" caret="2121" fromTop="55" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Models/f:AdvertisedOnDb.cs" caret="152" fromTop="5" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:PersonController.cs" caret="418" fromTop="17" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:AddressTypeController.cs" caret="430" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:BusinessController.cs" caret="424" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:AddrressController.cs" caret="425" fromTop="17" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:RegionTypeController.cs" caret="429" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:CategoryController.cs" caret="424" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:ContactTypeController.cs" caret="432" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:PaymentTypeController.cs" caret="432" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:ContactController.cs" caret="420" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Controllers/f:EmailTypeController.cs" caret="426" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Models/f:Visit.cs" caret="39" fromTop="2" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Models/f:Type.cs" caret="23" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Shared/f:_Layout.cshtml" caret="148" fromTop="4" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/f:_ViewStart.cshtml" caret="52" fromTop="2" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/f:packages.config" caret="495" fromTop="9" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/f:Web.config" caret="1402" fromTop="25" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:App_Start/f:BundleConfig.cs" caret="579" fromTop="16" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="10760" fromTop="34" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="36" fromTop="3" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Address/f:Create.cshtml" caret="19" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Address/f:Delete.cshtml" caret="26" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Account/f:Login.cshtml" caret="19" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Account/f:Register.cshtml" caret="19" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Shared/f:_Layout.cshtml" caret="148" fromTop="4" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/f:packages.config" caret="0" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:App_Start/f:BundleConfig.cs" caret="1981" fromTop="46" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="38" fromTop="4" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="16352" fromTop="10" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="10851" fromTop="48" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:App_Start/f:BundleConfig.cs" caret="1018" fromTop="17" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="1593" fromTop="42" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="4082" fromTop="28" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="4747" fromTop="37" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="5409" fromTop="40" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="6071" fromTop="40" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="6733" fromTop="37" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="7395" fromTop="43" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="49" fromTop="1" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="8627" fromTop="3" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="8764" fromTop="8" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="268" fromTop="11" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="2309" fromTop="26" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="3664" fromTop="25" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="4190" fromTop="34" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="7861" fromTop="37" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="9425" fromTop="23" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="10505" fromTop="24" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Content/f:Site.css" caret="10760" fromTop="34" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Home/f:Index.cshtml" caret="17825" fromTop="23" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Address/f:Create.cshtml" caret="19" fromTop="0" />
+      <File id="66EFDB4E-40AC-4E2B-9E3F-6A06F2026ECD/d:Views/d:Address/f:Delete.cshtml" caret="26" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="new" priority="2" />
+      <Item value="AdvertisedOnDb" priority="2" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>
