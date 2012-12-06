@@ -48,7 +48,6 @@ C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Syste
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Http.WebHost.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Mvc.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Optimization.dll
-C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Providers.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Razor.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Deployment.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.dll
@@ -56,6 +55,7 @@ C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Syste
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\WebGrease.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\EntityFramework.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Newtonsoft.Json.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Microsoft.Web.Infrastructure.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.Formatting.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.WebRequest.xml
@@ -67,6 +67,5 @@ C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Syste
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Razor.xml
-C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.csprojResolveAssemblyReference.cache
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.pdb
