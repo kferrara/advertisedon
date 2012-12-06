@@ -33,3 +33,38 @@ C:\Users\kferrara\Documents\Visual Studio 2010\Projects\AdvertisedOn\AdvertisedO
 C:\Users\kferrara\Documents\Visual Studio 2010\Projects\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Razor.xml
 C:\Users\kferrara\Documents\Visual Studio 2010\Projects\AdvertisedOn\AdvertisedOn\obj\Release\AdvertisedOn.dll
 C:\Users\kferrara\Documents\Visual Studio 2010\Projects\AdvertisedOn\AdvertisedOn\obj\Release\AdvertisedOn.pdb
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\AdvertisedOn.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\AdvertisedOn.pdb
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Antlr3.Runtime.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\EntityFramework.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Newtonsoft.Json.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.Formatting.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.WebRequest.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Helpers.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Http.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Http.WebHost.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Mvc.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Optimization.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Razor.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Razor.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\WebGrease.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\EntityFramework.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Newtonsoft.Json.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Microsoft.Web.Infrastructure.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.Formatting.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.WebRequest.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Helpers.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Http.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Http.WebHost.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Mvc.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.Razor.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Razor.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Release\AdvertisedOn.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Release\AdvertisedOn.pdb
