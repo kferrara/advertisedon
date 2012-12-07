@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\v11.0;AttachDbFileName=|DataDirectory|\DevelopmentStorageDb201210.mdf;InitialCatalog=aspnet-AdvertisedOn-20121122105406;Integrated Security=True;MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Keith\\Documents\\GitHub\\advertisedon\\AdvertisedOn\\AdvertisedOn\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish-Web.config Connection String" description="AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Keith\\Documents\\GitHub\\advertisedon\\AdvertisedOn\\AdvertisedOn\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>
