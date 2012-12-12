@@ -9,19 +9,46 @@
         @Scripts.Render("~/bundles/modernizr")
     </head>
 
-    @RenderBody()
+    <body>
+        <header>
+            <div class="header">
+	            <div class="log_on">
+		            <div class="log">
+			<a href="#" class="first">Customer Logon</a>
+			<a href="#">Business Logon</a>
+		</div>
+		            <div class="advertise"><a href="#">Advertise Your Business</a></div>
+	            </div>
+	            <div class="navs_top">
+		            <ul>
+		                <li><a href="#">How it Works</a></li>
+		                <li><a href="#">Business Owners</a></li>
+		                <li><a href="#">Community</a></li>
+		                <li><a style="border-right: none; padding:0 0 0 10px;" href="#">Help</a></li>
+		            </ul>
+	            </div>
+	            <div class="search">
+		            <form>
+		                <input type="search" autosave="unique" placeholder="Search by State/City/Town/Zip Code or Keyword" name="s" results="5">
+		                <button> Search </button>
+		            </form>
+	            </div>	
+	        </div>
+        </header>
 
-       <footer class="footer">
+        @RenderBody()
+
+        <footer class="footer">
 		    <div class="footer_image">Footer Image</div>
 		    <ul>
-		    <li><a href="#">Terms of Use</a></li>
-		    <li><a href="#">Privacy Policy</a></li>
-		    <li><a href="#">Site Map</a></li>
-		    <li><a style="border-right: none; padding:0 0 0 10px;" href="#">Help</a></li>
+		        <li><a href="#">Terms of Use</a></li>
+		        <li><a href="#">Privacy Policy</a></li>
+		        <li><a href="#">Site Map</a></li>
+		        <li><a style="border-right: none; padding:0 0 0 10px;" href="#">Help</a></li>
 		    </ul>
 		    Copyright © 2012 AdvertisedOn All Rights Reserved
-       </footer>
-
+	    </footer>	
+    </body>
   	      
     @Scripts.Render("~/bundles/jquery")
     @RenderSection("scripts", required: false)
