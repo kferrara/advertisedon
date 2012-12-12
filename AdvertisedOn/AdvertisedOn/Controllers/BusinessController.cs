@@ -5,7 +5,7 @@ using AdvertisedOn.Models;
 
 namespace AdvertisedOn.Controllers
 {
-    [Authorize(Roles = "Administrator")]
+    //[Authorize(Roles = "Administrator")]
     public class BusinessController : Controller
     {
         private AdvertisedOnDb db = new AdvertisedOnDb();
