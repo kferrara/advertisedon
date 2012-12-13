@@ -210,6 +210,7 @@
     <Content Include="Global.asax" />
     <Content Include="Images\arrow_down.png" />
     <Content Include="Images\arrow_right.png" />
+    <Content Include="Images\bkg_details.jpg" />
     <Content Include="Images\footer.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\logos\logo_temp01.png" />

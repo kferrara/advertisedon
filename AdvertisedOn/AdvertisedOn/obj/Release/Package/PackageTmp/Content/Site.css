@@ -8,7 +8,7 @@
 	position: relative;	
 	width:1000px;
 }
-.header{
+header{
     background: url('../Images/logo.png') no-repeat scroll left top transparent;
     margin: 0 0 10px;
     width: 100%;
@@ -378,12 +378,12 @@ li {
     display: inline-block;
     margin: 0 5px;
 }
-.footer_image{
+footer_image{
     background: url('../Images/footer.png') no-repeat scroll right top #CCCCCC;
     height: 185px;
     width: 100%;
 }
-.footer{
+footer{
     background: url('../Images/logo_footer.png') no-repeat scroll right bottom #3469B7;
     color: #FFFFFF;
     font-size: 12px;
@@ -392,7 +392,7 @@ li {
     margin-bottom: 20px;
     width: 100%;
 }
-.footer ul {
+footer ul {
     float: left;
     height: 45px;
     list-style-type: none;
@@ -400,10 +400,10 @@ li {
     padding: 0;
     width: 570px;
 }
-.footer li {
+footer li {
    display: inline-block;
 }
-.footer ul a {
+footer ul a {
   border-right:1px solid #fff;
   padding: 0 10px 0 10px;
   display: block;
@@ -412,7 +412,7 @@ li {
   font-size: 12px;
   color: #fff;
 }
-.footer ul a:hover {
+footer ul a:hover {
   text-decoration: underline;
 }
 
