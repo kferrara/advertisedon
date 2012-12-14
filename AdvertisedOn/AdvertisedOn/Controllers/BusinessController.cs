@@ -110,9 +110,9 @@ namespace AdvertisedOn.Controllers
         }
 
         [ChildActionOnly]
-        public ActionResult BusinessInSomething()
+        public ActionResult BusinessInTile()
         {
-            return PartialView("_Business");
+            return PartialView("_Business", db.Businesses.ToList());
         }
 
         protected override void Dispose(bool disposing)

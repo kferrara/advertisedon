@@ -79,10 +79,7 @@
 							</select>
 					    </div>
 
-                        @for (int i = 0; i < 6; i++)
-                        {
-				           @Html.Action("BusinessInSomething", "Business")
-                        }
+			           @Html.Action("BusinessInTile", "Business")
 
 					</div>
 				   
@@ -124,10 +121,8 @@
 								<option value="Option2">Option 2</option>
 								</select>
 						    </div>
-				        @for (int i = 0; i < 6; i++)
-                        {
-				             @Html.Action("BusinessInSomething", "Business")
-                        }
+				        
+				             @Html.Action("BusinessInTile", "Business")
 				    </div>
 				 
 				    <div id="tab3" class="tab_content">
