@@ -112,7 +112,7 @@ namespace AdvertisedOn.Controllers
         [ChildActionOnly]
         public ActionResult BusinessInTile()
         {
-            return PartialView("_Business", db.Businesses.ToList());
+            return PartialView("_Business", db.Businesses.ToList().Take(10));
         }
 
         protected override void Dispose(bool disposing)

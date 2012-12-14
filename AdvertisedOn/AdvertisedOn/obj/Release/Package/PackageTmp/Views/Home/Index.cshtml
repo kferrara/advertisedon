@@ -13,6 +13,11 @@
 			<h3>Testimonials</h3>
 			<div class="testimonial_wrapper">
 				<p>Watch how AdvertisedOn can help grow your business.</p>
+                @*<video width="85px" height="155px" controls>
+                    <source src="example-movie.mp4" type="video/mp4">
+                    <source src="example-movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>*@
 				<img src="~/images/temp_video.png" style="height: 85px; width: 155px; overflow: hidden;" align="middle" hspace="10" vspace="10">
 				Customer 1
 				<img src="~/images/temp_video.png" style="height: 85px; width: 155px; overflow: hidden;" align="middle" hspace="10" vspace="10">
@@ -33,14 +38,14 @@
 		<span class="col_main">
 			<h3>Search Results: <span class="state">Massachusetts: <span class="amount">(6)</span> Cape Cod & Islands</span></h3>
 			<div class="tab_wrapper">
-		      	    <ul class="tabs">
-				      <li><a href="#tab1">List View</a></li>
-				      <li><a href="#tab2">Photo View</a></li>
-					  <li><a href="#tab3">Map View</a></li>
-				      <li><a href="#tab4">My Favorites</a></li>
-				    </ul>
+		        <ul class="tabs">
+				    <li><a href="#tab1">List View</a></li>
+				    <li><a href="#tab2">Photo View</a></li>
+					<li><a href="#tab3">Map View</a></li>
+				    <li><a href="#tab4">My Favorites</a></li>
+				</ul>
 
-					<div id="tab1" class="tab_content">
+				<div id="tab1" class="tab_content">
 					    <div class="tab_navs">
 					    	<select name="Auto">
 							<option value="Auto">Auto</option>
@@ -80,10 +85,9 @@
 					    </div>
 
 			           @Html.Action("BusinessInTile", "Business")
-
 					</div>
 				   
-				    <div id="tab2" class="tab_content">
+				<div id="tab2" class="tab_content">
 					   	<div class="tab_navs">
 						    	<select name="Auto">
 								<option value="Auto">Auto</option>
@@ -120,12 +124,12 @@
 								<option value="Option1">Option 1</option>
 								<option value="Option2">Option 2</option>
 								</select>
-						    </div>
+						</div>
 				        
-				             @Html.Action("BusinessInTile", "Business")
+				        @Html.Action("BusinessInTile", "Business")
 				    </div>
 				 
-				    <div id="tab3" class="tab_content">
+				<div id="tab3" class="tab_content">
 					   	   <div class="tab_navs">
 						    	<select name="Auto">
 								<option value="Auto">Auto</option>
@@ -166,7 +170,7 @@
 				       Content of Map View
 				    </div>
 				
-				    <div id="tab4" class="tab_content">
+				<div id="tab4" class="tab_content">
 					   	   <div class="tab_navs">
 						    	<select name="Auto">
 								<option value="Auto">Auto</option>
@@ -205,8 +209,9 @@
 								</select>
 						    </div>
 				       Content of My Favorites
-			</div>
-	     </div>
+			        </div>
+	        </div>
+        </span>
 	</div>
  </div>	
 

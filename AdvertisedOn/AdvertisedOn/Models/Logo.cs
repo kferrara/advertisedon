@@ -3,6 +3,6 @@
     public class Logo
     {
         public int LogoId { get; set; }
-        public byte[] image { get; set; }
+        public string Url { get; set; }
     }
 }

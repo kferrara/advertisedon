@@ -18,6 +18,7 @@ namespace AdvertisedOn.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<PaymentType> PaymentTypes { get; set; }
+        public DbSet<Logo> Logos { get; set; }
 
         public AdvertisedOnDb () : base ("name=DefaultConnection")
 	    {

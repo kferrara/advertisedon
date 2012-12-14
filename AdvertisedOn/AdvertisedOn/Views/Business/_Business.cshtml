@@ -3,14 +3,14 @@
 @foreach (var item in Model) {
  <div class="ad">
     <div class="logo">
-        <img src="~/images/logos/logo_temp01.png" style="height: 100px; width: 100px;">
+        <img src="@item.Logo.Url" style="height: 100px; width: 100px;">
 	</div>
 	<div class="offer">
 	    <p>$30 off order of
 		 $150 or more</p>
 	</div>
 	<div class="info">
-	    <a href="~/Business/Details/@item.BusinessId">@item.Name</a>
+	    @item.Information
 	</div>
 	<div class="details">
 	    <a href="~/Business/Details/@item.BusinessId" class="button">Details</a>

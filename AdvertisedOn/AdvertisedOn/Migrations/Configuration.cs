@@ -41,12 +41,13 @@ namespace AdvertisedOn.Migrations
 
                 context.Businesses.AddOrUpdate(
                  b => b.Name,
-                 new Business { Name = "Acme Ltd", Information = "A products company" },
-                 new Business { Name = "Ace Hardware", Information = "A hardware company" },
-                 new Business { Name = "Duracell", Information = "A battery company" },
-                 new Business { Name = "Vextra", Information = "A radio company" },
-                 new Business { Name = "Wiley", Information = "A book company" },
-                 new Business { Name = "Belkin", Information = "A power company" }
+                 new Business { Name = "Acme Ltd", Information = "A products company", Logo = new Logo { Url = "/images/logos/logo_temp01.png" } },
+                 new Business { Name = "Ace Hardware", Information = "A hardware company", Logo = new Logo { Url = "/images/logos/logo_temp01.png" } },
+                 new Business { Name = "Duracell", Information = "A battery company", Logo = new Logo { Url = "/images/logos/logo_temp01.png" } },
+                 new Business { Name = "Vextra", Information = "A radio company", Logo = new Logo { Url = "/images/logos/logo_temp01.png" } },
+                 new Business { Name = "Wiley", Information = "A book company", Logo = new Logo { Url = "/images/logos/logo_temp01.png" } },
+                 new Business { Name = "Belkin", Information = "A power company", Logo = new Logo { Url = "/images/logos/logo_temp01.png" } },
+                 new Business { Name = "AT&T", Information = "A communications company", Logo = new Logo { Url = "/images/logos/logo_temp01.png" } }
                );
 
                 context.Categories.AddOrUpdate(
@@ -57,6 +58,11 @@ namespace AdvertisedOn.Migrations
                     new Category { Name = "Personal Care" },
                     new Category { Name = "Restaurants" },
                     new Category { Name = "Home & Garden" }
+                    );
+
+                context.Logos.AddOrUpdate(
+                    l => l.Url,
+                        new Logo { Url = "/images/logos/logo_temp01.png" }
                     );
         }
     }

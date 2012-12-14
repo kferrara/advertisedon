@@ -152,6 +152,10 @@
     <Compile Include="Migrations\201211231327002_Initial.Designer.cs">
       <DependentUpon>201211231327002_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201212141754382_Image to String.cs" />
+    <Compile Include="Migrations\201212141754382_Image to String.Designer.cs">
+      <DependentUpon>201212141754382_Image to String.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Address.cs" />
@@ -358,6 +362,11 @@
     <Content Include="Views\User\Edit.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\Business\_Business.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201212141754382_Image to String.resx">
+      <DependentUpon>201212141754382_Image to String.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
