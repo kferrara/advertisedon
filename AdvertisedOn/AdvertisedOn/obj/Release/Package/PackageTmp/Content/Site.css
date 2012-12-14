@@ -379,7 +379,7 @@ li {
     display: inline-block;
     margin: 0 5px;
 }
-footer_image{
+.footer_image{
     background: url('../Images/footer.png') no-repeat scroll right top #CCCCCC;
     height: 185px;
     width: 100%;
