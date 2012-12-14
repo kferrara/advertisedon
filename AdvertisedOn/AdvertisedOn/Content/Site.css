@@ -8,10 +8,11 @@
 	position: relative;	
 	width:1000px;
 }
-header{
-    background: url('../Images/logo.png') no-repeat scroll left top transparent;
-    margin: 0 0 10px;
-    width: 100%;
+header {
+background:url("../Images/logo.png") no-repeat scroll left top transparent;
+display:block;
+margin:0 auto;
+width:1000px;
 }
 .log_on{
 	height:85px;
@@ -344,17 +345,17 @@ h3 {
     width: 135px;
 }
 a.button {
-    background: url('../Images/bkg_details.jpg') repeat-x scroll left top transparent;
-    border: 0 none;
-    border-radius: 0 0 0 0;
-    color: #FFFFFF;
-    display: inline-block;
-    font-weight: bold;
-    height: 20px;
-    padding: 5px;
-    text-align: center;
-    text-decoration: none;
-    width: 70px;
+    background:url("../Images/bkg_details.jpg") repeat-x scroll left top transparent;
+    border:0 none;
+    color:#FFFFFF;
+    display:inline-block;
+    font-size:12px;
+    font-weight:bold;
+    height:20px;
+    padding:5px;
+    text-align:center;
+    text-decoration:none;
+    width:70px;
 }
 .tab_wrapper .tab_content .id {
 	color:#333;
@@ -383,22 +384,24 @@ footer_image{
     height: 185px;
     width: 100%;
 }
-footer{
-    background: url('../Images/logo_footer.png') no-repeat scroll right bottom #3469B7;
-    color: #FFFFFF;
-    font-size: 12px;
-    height: 230px;
-    line-height: 45px;
-    margin-bottom: 20px;
-    width: 100%;
+footer {
+    background:url("../Images/logo_footer.png") no-repeat scroll right bottom #3469B7;
+    color:#FFFFFF;
+    display:block;
+    font-size:12px;
+    height:230px;
+    line-height:140px;
+    margin:10px auto;
+    width:1000px;
 }
+ 
 footer ul {
-    float: left;
-    height: 45px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 570px;
+    float:left;
+    height:45px;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:490px;
 }
 footer li {
    display: inline-block;

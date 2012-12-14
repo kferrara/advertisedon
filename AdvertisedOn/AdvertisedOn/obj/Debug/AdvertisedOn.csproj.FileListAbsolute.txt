@@ -55,7 +55,6 @@ C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Syste
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\WebGrease.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\EntityFramework.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Newtonsoft.Json.xml
-C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Microsoft.Web.Infrastructure.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.Formatting.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Net.Http.WebRequest.xml
@@ -69,3 +68,4 @@ C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Syste
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Razor.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.pdb
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.csprojResolveAssemblyReference.cache
