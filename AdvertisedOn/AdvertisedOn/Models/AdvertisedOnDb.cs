@@ -19,6 +19,10 @@ namespace AdvertisedOn.Models
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<PaymentType> PaymentTypes { get; set; }
 
+        public AdvertisedOnDb () : base ("name=DefaultConnection")
+	    {
+	    }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();

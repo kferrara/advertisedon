@@ -68,4 +68,7 @@ C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Syste
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\System.Web.WebPages.Razor.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.dll
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.pdb
-C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.csprojResolveAssemblyReference.cache
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\PagedList.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\PagedList.Mvc.dll
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\PagedList.xml
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\PagedList.Mvc.xml
