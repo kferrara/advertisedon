@@ -43,7 +43,10 @@ namespace AdvertisedOn.Migrations
                  b => b.Name,
                  new Business { Name = "Acme Ltd", Information = "A products company" },
                  new Business { Name = "Ace Hardware", Information = "A hardware company" },
-                 new Business { Name = "Duracell", Information = "A battery company" }
+                 new Business { Name = "Duracell", Information = "A battery company" },
+                 new Business { Name = "Vextra", Information = "A radio company" },
+                 new Business { Name = "Wiley", Information = "A book company" },
+                 new Business { Name = "Belkin", Information = "A power company" }
                );
 
                 context.Categories.AddOrUpdate(

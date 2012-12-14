@@ -1,12 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\v11.0; Integrated Security=True" tags="SqlConnectionString">
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDB)\v11.0;Initial Catalog=AdvertisedOnDb;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\AdvertisedOnDb.mdf" tags="SqlConnectionString">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Keith\\Documents\\GitHub\\advertisedon\\AdvertisedOn\\AdvertisedOn\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
-  <parameter name="AdvertisedOn.Models.AdvertisedOnDb-Web.config Connection String" description="AdvertisedOn.Models.AdvertisedOnDb Connection String used in web.config by the application to access the database." defaultValue="AdvertisedOn.Models.AdvertisedOnDb_ConnectionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Keith\\Documents\\GitHub\\advertisedon\\AdvertisedOn\\AdvertisedOn\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AdvertisedOn.Models.AdvertisedOnDb']/@connectionString" />
-  </parameter>
-  <parameter name="AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish-Web.config Connection String" description="AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish.ConnetionString" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Keith\\Documents\\GitHub\\advertisedon\\AdvertisedOn\\AdvertisedOn\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='AdvertisedOn.Models.AdvertisedOnDb_DatabasePublish']/@connectionString" />
+  <parameter name="DefaultConnection_DatabasePublish-Web.config Connection String" description="DefaultConnection_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="DefaultConnection_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Keith\\Documents\\GitHub\\advertisedon\\AdvertisedOn\\AdvertisedOn\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection_DatabasePublish']/@connectionString" />
   </parameter>
 </parameters>

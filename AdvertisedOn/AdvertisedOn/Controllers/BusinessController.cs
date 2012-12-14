@@ -109,6 +109,12 @@ namespace AdvertisedOn.Controllers
             return RedirectToAction("Index");
         }
 
+        [ChildActionOnly]
+        public ActionResult BusinessInSomething()
+        {
+            return PartialView("_Business");
+        }
+
         protected override void Dispose(bool disposing)
         {
             db.Dispose();
