@@ -72,6 +72,7 @@ namespace AdvertisedOn.Controllers
         [HttpPost]
         public ActionResult Edit(Business business)
         {
+            // Look into TryUpdateModel(business)
             if (ModelState.IsValid)
             {
                 db.Entry(business).State = EntityState.Modified;

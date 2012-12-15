@@ -13,19 +13,16 @@
 			<h3>Testimonials</h3>
 			<div class="testimonial_wrapper">
 				<p>Watch how AdvertisedOn can help grow your business.</p>
-                @*<video width="85px" height="155px" controls>
-                    <source src="example-movie.mp4" type="video/mp4">
-                    <source src="example-movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>*@
-				<img src="~/images/temp_video.png" style="height: 85px; width: 155px; overflow: hidden;" align="middle" hspace="10" vspace="10">
-				Customer 1
-				<img src="~/images/temp_video.png" style="height: 85px; width: 155px; overflow: hidden;" align="middle" hspace="10" vspace="10">
-				Customer 2
-				<img src="~/images/temp_video.png" style="height: 85px; width: 155px; overflow: hidden;" align="middle" hspace="10" vspace="10">
-				Customer 3
-				<img src="~/images/temp_video.png" style="height: 85px; width: 155px; overflow: hidden;" align="middle" hspace="10" vspace="10">
-				Customer 4
+                @for (int i = 0; i < 4; i++)
+                {
+                    <video poster="~/images/temp_video.png" controls>
+                        <source src="movie.webm" type='video/webm; codecs="vp8.0, vorbis"'/>
+                        <source src="movie.ogg" type='video/ogg; codecs="theora, vorbis"'/>
+                        <source src="movie.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'/>
+                        <p>This is fallback content</p>
+                    </video>
+                    <p>Customer @i</p>
+                }
 		    </div>
 		</span>
 		<div class="accordionButton">Our Values</div>
@@ -84,7 +81,7 @@
 							</select>
 					    </div>
 
-			           @Html.Action("BusinessInTile", "Business")
+			            @Html.Action("BusinessInTile", "Business")
 					</div>
 				   
 				<div id="tab2" class="tab_content">

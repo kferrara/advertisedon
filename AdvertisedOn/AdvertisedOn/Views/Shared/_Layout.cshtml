@@ -27,10 +27,21 @@
 		         </ul>
 	        </div>
 	        <div class="search">
-		        <form>
+                @using (Ajax.BeginForm(
+                    new AjaxOptions
+                    {
+                        HttpMethod = "get",
+                        InsertionMode = InsertionMode.Replace,
+                        UpdateTargetId = "businessList"
+                    }))
+                {
+                    <input type="search" autosave="unique" placeholder="Search by State/City/Town/Zip Code or Keyword" name="searchTerm" results="5">
+		            <button> Search </button>
+                }
+		       @* <form>
 		            <input type="search" autosave="unique" placeholder="Search by State/City/Town/Zip Code or Keyword" name="s" results="5">
 		            <button> Search </button>
-		        </form>
+		        </form>*@
 	        </div>	
         </header>
 

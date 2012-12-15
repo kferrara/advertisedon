@@ -1,25 +1,27 @@
 ﻿@model IEnumerable<AdvertisedOn.Models.Business>
 
-@foreach (var item in Model) {
- <div class="ad">
-    <div class="logo">
-        <img src="@item.Logo.Url" style="height: 100px; width: 100px;">
-	</div>
-	<div class="offer">
-	    <p>$30 off order of
-		 $150 or more</p>
-	</div>
-	<div class="info">
-	    @item.Information
-	</div>
-	<div class="details">
-	    <a href="~/Business/Details/@item.BusinessId" class="button">Details</a>
-	</div>
-	<div class="id">
-	    <p>ID# @item.BusinessId</p>
-	</div>
-	<div class="area">
-	    <p>Serving Your Area</p>
-	</div>
-</div>
-}
+ <div id="businessList">
+    @foreach (var item in Model) {
+     <div class="ad">
+        <div class="logo">
+            <img src="@item.Logo.Url" style="height: 100px; width: 100px;">
+	    </div>
+	    <div class="offer">
+	        <p>$30 off order of
+		     $150 or more</p>
+	    </div>
+	    <div class="info">
+	        @item.Information
+	    </div>
+	    <div class="details">
+	        <a href="~/Business/Details/@item.BusinessId" class="button">Details</a>
+	    </div>
+	    <div class="id">
+	        <p>ID# @item.BusinessId</p>
+	    </div>
+	    <div class="area">
+	        <p>Serving Your Area</p>
+	    </div>
+    </div>
+    }
+ </div>
