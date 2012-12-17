@@ -20,6 +20,9 @@ namespace AdvertisedOn
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/advertisedon").Include(
+                        "~/Scripts/border-radius.htc"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/Site.css"));
 
