@@ -9,12 +9,12 @@
 	width:1000px;
 }
 header {
-background:url("../Images/logo.png") no-repeat scroll left top transparent;
-display:block;
-margin:0 auto;
-width:1000px;
-position: relative; 
-margin:0 auto 20px 0;
+    background:url("../Images/logo.png") no-repeat scroll left top transparent;
+    display:block;
+    margin:0 auto;
+    width:1000px;
+    position: relative; 
+    margin:0 auto 20px auto;
 }
 .log_on{
 	height:85px;
