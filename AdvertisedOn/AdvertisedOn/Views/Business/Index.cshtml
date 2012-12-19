@@ -7,7 +7,9 @@
 <h2>List</h2>
 
 <p>
-    @Html.ActionLink("New Business", "Create")
+    @if(User.IsInRole("Administrator")){
+        @Html.ActionLink("New Business", "Create")
+    }
 </p>
 <table>
     <tr>

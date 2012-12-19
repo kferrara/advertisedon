@@ -223,6 +223,9 @@
     <Content Include="Images\arrow_right.png" />
     <Content Include="Images\bkg_body.jpg" />
     <Content Include="Images\bkg_details.jpg" />
+    <Content Include="Images\bkg_feature.jpg" />
+    <Content Include="Images\bkg_feature.png" />
+    <Content Include="Images\bkg_search.jpg" />
     <Content Include="Images\footer.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\logos\logo_temp01.png" />

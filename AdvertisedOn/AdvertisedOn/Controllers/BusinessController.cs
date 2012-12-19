@@ -41,6 +41,7 @@ namespace AdvertisedOn.Controllers
         //
         // POST: /Default1/Create
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(Business business)
         {
             if (ModelState.IsValid)
