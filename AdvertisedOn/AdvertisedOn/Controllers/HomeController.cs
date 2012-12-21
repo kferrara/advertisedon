@@ -1,6 +1,7 @@
 ﻿using System.Web.Mvc;
 using System.Linq;
 using AdvertisedOn.Models;
+using PagedList;
 
 namespace AdvertisedOn.Controllers
 {
@@ -10,7 +11,7 @@ namespace AdvertisedOn.Controllers
 
         //
         // GET: /Home/
-        public ActionResult Index(string searchTerm = null)
+        public ActionResult Index(string searchTerm = null, int page = 1)
         {
             if (Request.IsAjaxRequest())
             {
@@ -19,8 +20,9 @@ namespace AdvertisedOn.Controllers
 
             var model = db.Businesses
                     .OrderByDescending(b => b.Name)
-                    .Take(10)
-                    .Select(b => b);
+                    .Where(b => searchTerm == null || b.Name.StartsWith(searchTerm))
+                    .Select(b => b)
+                    .ToPagedList(page, 10);
                     
             return View();
         }
