@@ -15,14 +15,14 @@ namespace AdvertisedOn.Controllers
         {
             if (Request.IsAjaxRequest())
             {
-                return PartialView("_Business", db.Businesses.ToList().Take(10));
+                return PartialView("_Business", db.Businesses.ToList().Take(6));
             }
 
             var model = db.Businesses
                     .OrderByDescending(b => b.Name)
                     .Where(b => searchTerm == null || b.Name.StartsWith(searchTerm))
                     .Select(b => b)
-                    .ToPagedList(page, 10);
+                    .ToPagedList(page, 6);
                     
             return View();
         }

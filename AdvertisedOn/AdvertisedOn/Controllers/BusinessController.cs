@@ -5,13 +5,13 @@ using AdvertisedOn.Models;
 
 namespace AdvertisedOn.Controllers
 {
-    //[Authorize(Roles = "Administrator")]
     public class BusinessController : Controller
     {
         private AdvertisedOnDb db = new AdvertisedOnDb();
 
         //
         // GET: /Default1/
+        [Authorize(Roles = "Administrator")]
         public ActionResult Index()
         {
             return View(db.Businesses.ToList());
@@ -114,7 +114,7 @@ namespace AdvertisedOn.Controllers
         [ChildActionOnly]
         public ActionResult BusinessInTile()
         {
-            return PartialView("_Business", db.Businesses.ToList().Take(10));
+            return PartialView("_Business", db.Businesses.ToList().Take(6));
         }
 
         protected override void Dispose(bool disposing)

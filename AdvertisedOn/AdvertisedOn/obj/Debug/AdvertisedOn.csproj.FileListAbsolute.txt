@@ -74,3 +74,4 @@ C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\Paged
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\bin\PagedList.Mvc.xml
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.Migrations.ImagetoString.resources
 C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.csproj.GenerateResource.Cache
+C:\Users\Keith\Documents\GitHub\advertisedon\AdvertisedOn\AdvertisedOn\obj\Debug\AdvertisedOn.csprojResolveAssemblyReference.cache
