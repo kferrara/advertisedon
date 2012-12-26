@@ -149,6 +149,7 @@
     <Compile Include="Controllers\PaymentTypeController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Controllers\RegionTypeController.cs" />
+    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -232,6 +233,10 @@
     <Content Include="Images\bkg_search.jpg" />
     <Content Include="Images\footer.png" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\logos\logo_featured_temp01.png" />
+    <Content Include="Images\logos\logo_featured_temp02.png" />
+    <Content Include="Images\logos\logo_featured_temp03.png" />
+    <Content Include="Images\logos\logo_featured_temp04.png" />
     <Content Include="Images\logos\logo_temp01.png" />
     <Content Include="Images\logo_footer.png" />
     <Content Include="Images\temp_map.png" />
@@ -373,6 +378,7 @@
     <Content Include="Views\User\Edit.cshtml" />
     <Content Include="Views\User\Index.cshtml" />
     <Content Include="Views\Business\_Business.cshtml" />
+    <Content Include="Views\Search\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201212141754382_Image to String.resx">

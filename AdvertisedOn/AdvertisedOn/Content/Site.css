@@ -8,10 +8,9 @@
 	position: relative;	
 	width:1000px;
 }
-header {
-    background:url("../Images/logo.png") no-repeat scroll left top transparent;
+header{
+    background: url('../Images/logo.png') no-repeat scroll left top transparent;
     display:block;
-    margin:0 auto;
     width:1000px;
     position: relative; 
     margin:0 auto 20px auto;
@@ -205,9 +204,17 @@ h3 {
     font-size: 14px;
     margin-top: 25px;
 }
+.testimonial_wrapper p {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    vertical-align: top;
+}
+video {
+    margin: 0 0 10px;
+}
 .feature_wrapper span.col_main{
     float: left;
-    margin: 0;
+    margin: 0 0 10px 0;
     padding: 0 20px;
     vertical-align: top;
     width: 960px;
@@ -292,34 +299,54 @@ h3 {
    border-radius: 10px;
 }
 .tab_wrapper .tab_content select{
-    background: none repeat scroll 0 0 transparent;
     border: 0 none;
-    color: #3468B6;
     font-size: 14px;
-    margin: 0 8px 10px 0;
+    margin: 0 10px 0 0;
 }
 .tab_wrapper .tab_content .tab_navs{
-	padding: 0 0 0 10px;
+	background-color: #3468B6;
+	padding: 5px;
     width: 98%;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
 }
 .tab_wrapper .tab_content .ad{
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #5893CF;
     display: inline-block;
     height: 230px;
-    margin: 10px;
+    margin: 10px 0;
     padding: 10px;
     vertical-align: top;
-    width: 260px;
+    width: 285px;
    -webkit-border-radius: 8px;
    -moz-border-radius: 8px;
    border-radius: 8px;
 }
-.tab_wrapper .tab_content .logo{
+.tab_wrapper .tab_content .ad_feature{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #5893CF;
+    border-radius: 8px 8px 8px 8px;
+    display: inline-block;
+    height: 160px;
+    margin: 10px 0;
+    padding: 10px;
+    vertical-align: top;
+    width: 209px;
+}
+.tab_wrapper .tab_content .ad .logo{
 	display:inline-block;
     height: 120px;
     vertical-align: top;
     width: 120px;
+}
+.tab_wrapper .tab_content .ad_feature .logo{
+    display: inline-block;
+    height: 120px;
+    text-align: center;
+    vertical-align: top;
+    width: 210px;
 }
 .tab_wrapper .tab_content .offer{
     display: inline-block;
@@ -339,25 +366,32 @@ h3 {
 .tab_wrapper .tab_content .info a{
     color:#3468B6;
 }
-.tab_wrapper .tab_content .details{
+.tab_wrapper .tab_content .ad .details{
     display: inline-block;
     height: 60px;
     text-align: right;
     vertical-align: top;
     width: 135px;
 }
+.tab_wrapper .tab_content .ad_feature .details{
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    vertical-align: top;
+    width:210px;
+}
 a.button {
-    background:url("../Images/bkg_details.jpg") repeat-x scroll left top transparent;
-    border:0 none;
-    color:#FFFFFF;
-    display:inline-block;
-    font-size:12px;
-    font-weight:bold;
-    height:20px;
-    padding:5px;
-    text-align:center;
-    text-decoration:none;
-    width:70px;
+    background: url('../Images/bkg_details.jpg') repeat-x scroll left top transparent;
+    border: 0 none;
+    border-radius: 0 0 0 0;
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: bold;
+    height: 20px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 70px;
 }
 .tab_wrapper .tab_content .id {
 	color:#333;
@@ -386,7 +420,7 @@ li {
     height: 185px;
     width: 100%;
 }
-footer {
+footer{
     background:url("../Images/logo_footer.png") no-repeat scroll right bottom #3469B7;
     color:#FFFFFF;
     display:block;
@@ -396,14 +430,13 @@ footer {
     margin:10px auto;
     width:1000px;
 }
- 
 footer ul {
-    float:left;
-    height:45px;
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    width:490px;
+    float: left;
+    height: 45px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 570px;
 }
 footer li {
    display: inline-block;
