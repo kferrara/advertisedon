@@ -212,8 +212,8 @@ h3 {
 video {
     margin: 0 0 10px;
 }
-.feature_wrapper span.col_main{
-    float: left;
+.feature_wrapper span.col_main,
+.feature_wrapper span.col_feature{
     margin: 0 0 10px 0;
     padding: 0 20px;
     vertical-align: top;
@@ -223,9 +223,10 @@ video {
     border: 0 none;
     height: auto;
     margin: -1px -20px 0;
-    width: 1000px;
 }
-
+span.col_feature .tab_wrapper{
+    padding:20px;
+}
 .tab_wrapper ul.tabs {
     background: url("") no-repeat scroll right top #3468B6;
     border: 0 none;
@@ -293,7 +294,17 @@ video {
     margin: 10px;
     padding: 20px;
     width:940px;
-
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+}
+.tab_wrapper .feature_content {
+    background: none repeat scroll 0 0 #EDEDED;
+    clear: both;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    width:940px;
    -webkit-border-radius: 10px;
    -moz-border-radius: 10px;
    border-radius: 10px;
@@ -324,16 +335,16 @@ video {
    -moz-border-radius: 8px;
    border-radius: 8px;
 }
-.tab_wrapper .tab_content .ad_feature{
+.tab_wrapper .ad_feature{
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #5893CF;
     border-radius: 8px 8px 8px 8px;
     display: inline-block;
     height: 160px;
-    margin: 10px 0;
+    margin: 7px;
     padding: 10px;
     vertical-align: top;
-    width: 209px;
+    width: 200px;
 }
 .tab_wrapper .tab_content .ad .logo{
 	display:inline-block;
@@ -341,12 +352,19 @@ video {
     vertical-align: top;
     width: 120px;
 }
-.tab_wrapper .tab_content .ad_feature .logo{
+.tab_wrapper .ad_feature .logo{
     display: inline-block;
     height: 120px;
     text-align: center;
     vertical-align: top;
     width: 210px;
+}
+.tab_wrapper .ad_feature .details{
+    display: inline-block;
+    height: 60px;
+    text-align: center;
+    vertical-align: top;
+    width:210px;
 }
 .tab_wrapper .tab_content .offer{
     display: inline-block;
@@ -386,8 +404,9 @@ a.button {
     border-radius: 0 0 0 0;
     color: #FFFFFF;
     display: inline-block;
+	font-size: 12px;
     font-weight: bold;
-    height: 20px;
+    height: 16px;
     padding: 5px;
     text-align: center;
     text-decoration: none;

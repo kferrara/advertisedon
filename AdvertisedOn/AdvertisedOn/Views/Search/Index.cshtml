@@ -4,10 +4,9 @@
 
   <div class="wrapper">
 	<div class="feature_wrapper">
-		 <span class="col_main"> 
+        <span class="col_feature"> 
           <h3>Featured  Business Listings: <span class="state">Massachusetts: <span class="amount">(6)</span> Cape Cod & Islands</span></h3>
             <div class="tab_wrapper">
-              <div id="tab1" class="tab_content">
                 <div class="ad_feature">
                  <div class="logo">
                   <img src="../Images/logos/logo_featured_temp01.png" style="height: 105px; width: 155px;">
@@ -38,22 +37,21 @@
                  </div>
                  <div class="details">
                    <a class="button" href="#">Details</a>
-                 </div>   
-                </div>					    
+                 </div>   				    
               </div>
             </div>  
         </span>   
-		<span class="col_main">
-			<h3>Search Results: <span class="state">Massachusetts: <span class="amount">(6)</span> Cape Cod & Islands</span></h3>
+	<span class="col_main">
+			<h3>Search Results: <span class="state">Massachusetts: <span class="amount">(6)</span> Cape Cod &amp; Islands</span></h3>
 			<div class="tab_wrapper">
-		        <ul class="tabs">
-				    <li><a href="#tab1">List View</a></li>
-				    <li><a href="#tab2">Photo View</a></li>
-					<li><a href="#tab3">Map View</a></li>
-				    <li><a href="#tab4">My Favorites</a></li>
-				</ul>
+		      	    <ul class="tabs">
+				      <li class="active"><a href="#tab1">List View</a></li>
+				      <li class=""><a href="#tab2">Photo View</a></li>
+					  <li class=""><a href="#tab3">Map View</a></li>
+				      <li class=""><a href="#tab4">My Favorites</a></li>
+				    </ul>
 
-				<div id="tab1" class="tab_content">
+					<div class="tab_content" id="tab1" style="display: block;">
 					    <div class="tab_navs">
 					    	<select name="Auto">
 							<option value="Auto">Auto</option>
@@ -80,7 +78,7 @@
 							</select>
 							
 							<select name="Home">
-							<option value="Home">Home & Office</option>
+							<option value="Home">Home &amp; Office</option>
 							<option value="Option1">Option 1</option>
 							<option value="Option2">Option 2</option>
 							</select>
@@ -90,54 +88,11 @@
 							<option value="Option1">Option 1</option>
 							<option value="Option2">Option 2</option>
 							</select>
-					    </div>
-
-			            @Html.Action("BusinessInTile", "Business")
-					</div>
-				   
-				<div id="tab2" class="tab_content">
-					   	<div class="tab_navs">
-						    	<select name="Auto">
-								<option value="Auto">Auto</option>
-								<option value="Option1">Option 1</option>
-								<option value="Option2">Option 2</option>
-								</select>
-
-								<select name="Restaurants">
-								<option value="Restaurants">Restaurants</option>
-								<option value="Option1">Option 1</option>
-								<option value="Option2">Option 2</option>
-								</select>
-
-								<select name="Services">
-								<option value="Services">Services</option>
-								<option value="Option1">Option 1</option>
-								<option value="Option2">Option 2</option>
-								</select>
-
-								<select name="Health">
-								<option value="Health">Health</option>
-								<option value="Option1">Option 1</option>
-								<option value="Option2">Option 2</option>
-								</select>
-
-								<select name="Home">
-								<option value="Home">Home & Office</option>
-								<option value="Option1">Option 1</option>
-								<option value="Option2">Option 2</option>
-								</select>
-
-								<select name="More">
-								<option value="More">More</option>
-								<option value="Option1">Option 1</option>
-								<option value="Option2">Option 2</option>
-								</select>
-						</div>
-				        
+						    </div>
 				        @Html.Action("BusinessInTile", "Business")
 				    </div>
-				 
-				<div id="tab3" class="tab_content">
+				   
+				    <div class="tab_content" id="tab2" style="display: none;">
 					   	   <div class="tab_navs">
 						    	<select name="Auto">
 								<option value="Auto">Auto</option>
@@ -164,7 +119,48 @@
 								</select>
 
 								<select name="Home">
-								<option value="Home">Home & Office</option>
+								<option value="Home">Home &amp; Office</option>
+								<option value="Option1">Option 1</option>
+								<option value="Option2">Option 2</option>
+								</select>
+
+								<select name="More">
+								<option value="More">More</option>
+								<option value="Option1">Option 1</option>
+								<option value="Option2">Option 2</option>
+								</select>
+						    </div>
+				        @Html.Action("BusinessInTile", "Business")
+				    </div>
+				 
+				    <div class="tab_content" id="tab3" style="display: none;">
+					   	   <div class="tab_navs">
+						    	<select name="Auto">
+								<option value="Auto">Auto</option>
+								<option value="Option1">Option 1</option>
+								<option value="Option2">Option 2</option>
+								</select>
+
+								<select name="Restaurants">
+								<option value="Restaurants">Restaurants</option>
+								<option value="Option1">Option 1</option>
+								<option value="Option2">Option 2</option>
+								</select>
+
+								<select name="Services">
+								<option value="Services">Services</option>
+								<option value="Option1">Option 1</option>
+								<option value="Option2">Option 2</option>
+								</select>
+
+								<select name="Health">
+								<option value="Health">Health</option>
+								<option value="Option1">Option 1</option>
+								<option value="Option2">Option 2</option>
+								</select>
+
+								<select name="Home">
+								<option value="Home">Home &amp; Office</option>
 								<option value="Option1">Option 1</option>
 								<option value="Option2">Option 2</option>
 								</select>
@@ -178,7 +174,7 @@
 				       Content of Map View
 				    </div>
 				
-				<div id="tab4" class="tab_content">
+				    <div class="tab_content" id="tab4" style="display: none;">
 					   	   <div class="tab_navs">
 						    	<select name="Auto">
 								<option value="Auto">Auto</option>
@@ -205,7 +201,7 @@
 								</select>
 
 								<select name="Home">
-								<option value="Home">Home & Office</option>
+								<option value="Home">Home &amp; Office</option>
 								<option value="Option1">Option 1</option>
 								<option value="Option2">Option 2</option>
 								</select>
@@ -216,11 +212,11 @@
 								<option value="Option2">Option 2</option>
 								</select>
 						    </div>
+				       Content of My Favorites
 			        </div>
-	        </div>
-        </span>
-	
-	</div>
+	     </div>
+	  </span>
+    </div>
  </div>	
 
 @section Scripts {
@@ -229,33 +225,6 @@
     @Scripts.Render("~/bundles/jqueryui")
 
     <script type="text/javascript">
-        $(document).ready(function () {
-
-            $('.accordionButton').click(function () {
-
-                $('.accordionButton').removeClass('on');
-
-                $('.accordionContent').slideUp('normal');
-
-                if ($(this).next().is(':hidden') == true) {
-
-                    $(this).addClass('on');
-
-                    $(this).next().slideDown('normal');
-                }
-
-            });
-
-            $('.accordionButton').mouseover(function () {
-                $(this).addClass('over');
-
-            }).mouseout(function () {
-                $(this).removeClass('over');
-            });
-
-            $('.accordionContent').hide();
-            return false;
-        });
 
         $(document).ready(function () {
 
